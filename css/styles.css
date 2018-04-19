@@ -61,6 +61,7 @@ body {
 
 iframe {
     padding-bottom: 1em;
+    border: none;
 }
 
 .song-1 {
@@ -195,6 +196,10 @@ iframe {
         vertical-align: top;
         text-align: center;
     }
+    /* SOUNDS */
+    iframe {
+        width: 600px;
+    }
     /* CONTACT */
     .contact {
         text-align: center;
@@ -261,6 +266,10 @@ iframe {
         padding: 2.5%;
         vertical-align: top;
         text-align: center;
+    }
+    /* SOUNDS */
+    iframe {
+        width: 300px;
     }
     /* CONTACT */
     .contact {
