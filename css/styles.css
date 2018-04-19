@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0 10%;
+    background-color: lightgray;
+}
+
+.main-nav {
+    padding: 0;
+    height: 38px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.portfolio {
+    background-color: white;
+}
+
+.portfolio h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media screen and (min-width: 1024px) {
+    /* HEADER MENU */
+    .name,
+    .main-nav li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .main-nav {
+        float: right;
+        line-height: 38px;
+        font-size: 20px;
+    }
+    .main-nav li {
+        margin-right: 10px;
+    }
+    /* PROFILE */
+    .profile {
+        display: inline-block;
+    }
+    .profile img {
+        width: 25%;
+        float: right;
+        margin-left: 5%;
+    }
+    .profile h2 {
+        float: left;
+        width: 70%;
+    }
+    /* PORTFOLIO */
+    .portfolio .container {
+        text-align: center;
+    }
+    .col img {
+        width: 100%;
+        height: 100%;
+    }
+    .col {
+        width: 33%;
+        display: inline-block;
+        padding: 2.5%;
+        vertical-align: top;
+        text-align: center;
+    }
+    /* CONTACT */
+    .contact {
+        text-align: center;
+        width: 50%;
+        margin: 5% 25%;
+    }
+    /* FOOTER */
+    .name,
+    .footer-nav li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .footer-nav {
+        float: right;
+        font-size: 20px;
+    }
+    .footer-nav li {
+        margin-right: 10px;
+    }
+    .back-to-top {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* HEADER MENU */
+    .name {
+        display: block;
+        text-align: center;
+    }
+    .main-nav {
+        line-height: 38px;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        margin-top: 0;
+    }
+    .main-nav li {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .main-header {
+        text-align: center;
+    }
+    /* PROFILE */
+    .profile {
+        display: inline-block;
+    }
+    .profile img {
+        width: 25%;
+        float: right;
+        margin-left: 5%;
+    }
+    .profile h2 {
+        float: left;
+        width: 70%;
+    }
+    /* PORTFOLIO */
+    .portfolio .container {
+        text-align: center;
+    }
+    .col img {
+        width: 100%;
+        height: 100%;
+    }
+    .col {
+        width: 48%;
+        display: inline-block;
+        padding: 2.5%;
+        vertical-align: top;
+        text-align: center;
+    }
+    /* CONTACT */
+    .contact {
+        text-align: center;
+        width: 50%;
+        margin: 5% 25%;
+    }
+    /* FOOTER */
+    .name,
+    .footer-nav li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .footer-nav {
+        float: right;
+        font-size: 20px;
+    }
+    .footer-nav li {
+        margin-right: 10px;
+    }
+    .back-to-top {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    /* HEADER MENU */
+    .main-header {
+        text-align: center;
+        display: block;
+    }
+    .main-nav {
+        line-height: 38px;
+        font-size: 20px;
+        display: block;
+    }
+    .main-nav li {
+        background-color: white;
+        margin: 5px;
+    }
+    /* PROFILE */
+    .profile {
+        display: block;
+    }
+    .profile img {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        display: block;
+    }
+    .profile h2 {
+        display: block;
+        text-align: center;
+    }
+    /* PORTFOLIO */
+    .col img {
+        width: 100%;
+        height: 100%;
+    }
+    .col {
+        width: 100%;
+        display: inline-block;
+        padding: 2.5%;
+        vertical-align: top;
+        text-align: center;
+    }
+    /* CONTACT */
+    .contact {
+        width: 100%;
+    }
+    .contact h3 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* FOOTER */
+    .footer-nav {
+        display: none;
+    }
+    .footer .container .name {
+        display: inline-block;
+        width: 50%
+    }
+    .back-to-top {
+        display: inline-block;
+        width: 48%;
+        text-align: right;
+    }
+
+}
